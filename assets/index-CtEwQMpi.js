@@ -9571,7 +9571,7 @@ function ld() {
                     })]
                 }), ae.jsxs("a", {
                     className: "button-instagram",
-                    href: "https://www.instagram.com/classealtaroleplay",
+                    href: "#",
                     target: "_blank",
                     children: [ae.jsx(rd, {
                         fontSize: "25px",
