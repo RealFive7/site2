@@ -9557,7 +9557,7 @@ function ld() {
                 },
                 children: [ae.jsxs("a", {
                     className: "button-discord",
-                    href: "https://www.discord.gg/",
+                    href: "https://discord.gg/Ftj9RS8VHd",
                     target: "_blank",
                     children: [ae.jsx(td, {
                         fontSize: "25px",
