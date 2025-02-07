@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,sans-serif
+}
+
+.feixe {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle,rgba(0,119,192,.5) 0%,transparent 70%);
+    border-radius: 50%;
+    filter: blur(100px);
+    pointer-events: none;
+    animation: respiro 3s infinite ease-in-out
+}
+
+.feixe-1 {
+    top: 20%;
+    left: 10%
+}
+
+.feixe-2 {
+    bottom: 15%;
+    right: 10%
+}
+
+.logo-principal {
+    max-width: 400px
+}
+
+.title-maintenance {
+    font-size: 64px;
+    margin-bottom: 10px;
+    margin-top: 16px
+}
+
+.subtitle-maintenance {
+    margin-bottom: 10px;
+    line-height: 1
+}
+
+.subtitle-2-maintenance {
+    margin-bottom: 16px
+}
+
+.button-discord,.button-instagram {
+    padding: 20px 25px;
+    background-color: transparent;
+    border-radius: 13px;
+    border: 2px solid #d9d9d9;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.footer-text {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 16px;
+    font-size: 20px
+}
+
+@media (min-width: 1441px) {
+    .logo-principal {
+        max-width:400px
+    }
+
+    .title-maintenance {
+        font-size: 64px
+    }
+
+    .subtitle-maintenance,.subtitle-2-maintenance {
+        font-size: 32px
+    }
+}
+
+@media (max-width: 1440px) {
+    .logo-principal {
+        max-width:300px
+    }
+
+    .title-maintenance {
+        font-size: 54px
+    }
+
+    .subtitle-2-maintenance {
+        font-size: 32px
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo-principal {
+        max-width:200px
+    }
+
+    .title-maintenance {
+        font-size: 48px
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-principal {
+        max-width:150px
+    }
+
+    .title-maintenance {
+        font-size: 36px
+    }
+
+    .subtitle-maintenance {
+        font-size: 24px
+    }
+
+    .button-discord,.button-instagram {
+        padding: 10px
+    }
+}
+
+@media (max-width: 425px) {
+    .logo-principal {
+        max-width:100px
+    }
+
+    .title-maintenance {
+        font-size: 26px
+    }
+
+    .subtitle-maintenance {
+        font-size: 18px
+    }
+
+    .subtitle-2-maintenance {
+        font-size: 20px
+    }
+
+    .footer-text {
+        font-size: 14px
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-principal {
+        max-width:100px
+    }
+
+    .title-maintenance {
+        font-size: 24px
+    }
+
+    .subtitle-maintenance {
+        font-size: 16px
+    }
+
+    .subtitle-2-maintenance {
+        font-size: 18px
+    }
+}
+
+@keyframes respiro {
+    0%,to {
+        transform: scale(1);
+        opacity: .7
+    }
+
+    50% {
+        transform: scale(1.5);
+        opacity: 1
+    }
+}
